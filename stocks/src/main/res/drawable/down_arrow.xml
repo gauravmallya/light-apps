@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+    DOWN ARROW — visible shaft (line) connected to a filled arrowhead.
+
+    NOTE: Android requires resource filenames to be lowercase (a-z, 0-9, _), so a
+    file named `DownArrow` isn't allowed by the build. This file is `down_arrow.xml`
+    and is referenced in code as `R.drawable.down_arrow`. Please edit this file to
+    replace the path data / colors with your own design. It renders in the theme's
+    content color at runtime via the stocks UI.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30.0dp"
+    android:height="30.0dp"
+    android:viewportWidth="30.0"
+    android:viewportHeight="30.0">
+    <!-- Down arrow: vertical line (shaft) + filled downward chevron (head) -->
+    <path
+        android:pathData="M 14.0,3.5 L 14.0,18.5 L 8.0,12.0 L 6.0,14.0 L 15.0,23.0 L 24.0,14.0 L 22.0,12.0 L 16.0,18.5 L 16.0,3.5 Z"
+        android:fillColor="#FFFFFFFF" />
+</vector>
