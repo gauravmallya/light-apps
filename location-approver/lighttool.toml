@@ -1,0 +1,7 @@
+[tool]
+id = "com.thelightphone.locationapprover"
+label = "Requests"
+versionCode = 1
+versionName = "1.0.0"
+permissions = ["android.permission.INTERNET"]
+serverPackage = "com.lightos"
